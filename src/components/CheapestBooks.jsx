@@ -1,6 +1,6 @@
 import React from "react";
-import Book from "./components/Book";
-import { books } from "./data";
+import Book from "./Book";
+import { books } from "../data";
 
 const Features = () => {
   return (
