@@ -1,5 +1,5 @@
-imoprt React from 'react';
-imoprt Logo from "../assets/library.svg";
+import React from 'react';
+import Logo from "../assets/Library.svg"
 
 const Footer = () => {
     return (
@@ -15,7 +15,7 @@ const Footer = () => {
             <a href="/" className="footer__link">Home</a>
             <span className="footer__link no-cursor">About</span>
             <a href="/books" className="footer__link">Books</a>
-            <a href="/cart" className="footer__link">Cart</span>
+            <span href="/cart" className="footer__link">Cart</span>
         </div>
         <div className="footer__copyright">
             Copyright &copy; 2024 Library. All rights reserved.
