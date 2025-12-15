@@ -5,9 +5,8 @@ import { books }  from "../data";
 
 
 const Featured = () => {
-  console.log(data);
-  function getFiveStarBooks() 
-   console.log();
+  console.log(books);
+    console.log (); 
   return (
     <section id="features">
       <div className="container">
@@ -21,13 +20,13 @@ const Featured = () => {
             .slice(0, 4)
             .map(book) => (
             <Book book={book} key={book.id}/>
-  ))}
+  
            
         </div>
       </div>
       </div>  
     </section>
   );
-};
+}
 
 export default Featured;
