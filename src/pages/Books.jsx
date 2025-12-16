@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Book from "../components/Book";
 
 const Books = ({ books: initalBooks }) => {
-  const [books, setBooks] = useState();
+  const [books, setBooks] = useState(initalBooks);
 
   useEffect(() => {
     setBooks(initalBooks);

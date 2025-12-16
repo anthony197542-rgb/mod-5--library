@@ -18,7 +18,7 @@ const Footer = () => {
             <span href="/cart" className="footer__link">Cart</span>
         </div>
         <div className="footer__copyright">
-            Copyright &copy; 2024 Library. All rights reserved.
+            Copyright &copy; 2025 Library. All rights reserved.
         </div>
         </div>
         </div>
