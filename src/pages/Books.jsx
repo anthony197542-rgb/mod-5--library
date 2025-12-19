@@ -8,7 +8,7 @@ return (
 
 <div className="book">
 
-<a href="/">
+<a href="">
 
 <figure className="book__img--wrapper">
 
