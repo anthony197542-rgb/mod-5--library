@@ -41,13 +41,13 @@ src={img.src}
 </figure>
 </Link>
 <div className="book__title">
-<Link to={`/books/$book.id}` } className="book__title--"link" />
+<Link to={`/books/$book.id}` } className="book__title--"link />
 {book.title}
 </Link>
 </div>
 <Rating rating={book.rating} />
 <Price salePrice={book.salePrice} originalPrice={book.original} />
-/>
+
 </>
     ) : (
         
